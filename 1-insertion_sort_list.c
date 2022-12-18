@@ -1,6 +1,8 @@
 #include "sort.h"
-
-
+/**
+ * insertion_sort_list - sort doubly linked list
+ * @list: pointer to list
+ */
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *node = NULL, *temp = NULL, *head = NULL;
